@@ -71,3 +71,5 @@ def problem_4():
     print(time.time()-start)
 
 # problem_4()
+
+# PROBLEMS 1-4 TOOK 3 WORK SESSIONS OF 1HR EACH
