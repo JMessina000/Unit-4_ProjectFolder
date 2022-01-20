@@ -1,7 +1,7 @@
 import time
 
 
-def problem_1():
+def problem_1():  # This will take all numbers bellow 1000 and brute force check if they are multipules of 3 or 5 and will add them to the sum if they are
     Sum = 0
     x = 1
     while x < 1000:
@@ -15,7 +15,7 @@ def problem_1():
 # print(problem_1())
 
 
-def problem_2():
+def problem_2():  # This function takes the first 2 numbers and adds them together to generate the next fibonnaci number and then shifts all of the numbers by 1
     n1 = 1
     n2 = 2
     Sum = 2
@@ -30,7 +30,7 @@ def problem_2():
 # print(problem_2())
 
 
-def problem_3():
+def problem_3():  # This divides the num by i which is increased by 1 each time until it finds the largest possible prime factor
     num = 600851475143
     i = 2
     while i * i < num:
@@ -42,7 +42,7 @@ def problem_3():
 # print(problem_3())
 
 
-def problem_4():
+def problem_4():  # This has a function to check if a number is a palindrome and then a number is multiplied by every combination of 2 3-digit numbers and everytime a larger palidrome is found it replaces the previous plaindrome
 
     start = time.time()
 
@@ -73,7 +73,7 @@ def problem_4():
 # problem_4()
 
 
-def problem_5():
+def problem_5():  # This function has 2 functions to find the greatest common demonenator and the least common multiple it then takes a number and then it uses these 2 functions to find the smallest number evenly divisble by numbers 1-20
 
     start_time = time.time()
 
@@ -101,7 +101,7 @@ def problem_5():
 # problem_5()
 
 
-def problem_6():
+def problem_6():  # This has 2 seperate parts that find the sum of all first 100 natural squares and then the square of sum, it later finds the difference of these two numbers
     count = 0
     count2 = 0
     num = 0
